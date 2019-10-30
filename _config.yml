@@ -34,7 +34,7 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://iscls.github.io/album/gallery/"  
- # - JOURNAL: "https://iscls.github.io/album/journal/"
+  - CONFERENCE HOME: "https://iscls.github.io/"
  # - ABOUT: "https://iscls.github.io/album/about/"
 
 # All translation keys
