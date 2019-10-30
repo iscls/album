@@ -1,0 +1,217 @@
+---
+layout: page
+title: "album"
+description: "masonry"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "Day 1 - Photos"
+images:
+- image_path: /gallery/archive/Day3/IMG_20191025_094925.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_142136.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_142138.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_144339.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_144350.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_151519.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191024_153915.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094045_1.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094047.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094126.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094129.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094136.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094917.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094919_1.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_094928.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_102739.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_103118.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_103122.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_103129.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_110653.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_110702.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_110703.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_110704.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_110710.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_112811.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_112817.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_112822.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_114820.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_114827.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_114830.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_120217.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_120222.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_122201.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_122503.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_122512.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124154.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124156.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124158.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124159_1.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124253.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/IMG_20191025_124255_1.jpg
+   caption: Day 3
+   copyright: ISCLS
+ - image_path: /gallery/archive/Day3/index.html
+   caption: Day 3
+   copyright: ISCLS
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+    
+</body></html>
