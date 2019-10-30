@@ -1,13 +1,13 @@
 # Site settings
 title: ISCLS 2019
-email: ""
+email: "iscls@outlook.com"
 description: "OCT 23 - 25, IIT Kharagpur"
 url: "https://iscls.github.io"
 baseurl: "/album"
 #facebook_username: ""
 #twitter_username: ""
 #instagram_username: ""
-github_username:  ""
+github_username:  "iscls"
 #deviantart_username: ""
 #flickr_username: ""
 #discus_shortname: ""
