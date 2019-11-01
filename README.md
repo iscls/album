@@ -2,8 +2,14 @@
 
 - Images link: [https://1drv.ms/u/s!AoBtr7-i8KtSakarkwMcpOfpNJo?e=6IgtMN](https://1drv.ms/u/s!AoBtr7-i8KtSakarkwMcpOfpNJo?e=6IgtMN)
 - Resize the images to fit to web using imagemagick
-- ```convert -auto-orient '*.jpg[750x]' -strip IMG_%03d.jpg```
-- Using https://github.com/iscls/album/blob/gh-pages/gallery/imagePathGenerator.ipynb, generate filenames and description
+  - ```convert -auto-orient '*.jpg[750x]' -strip IMG_%03d.jpg```
+  - Here we assume the command is run where the images are stored and the image width is set to 750px
+  - Height will automatically be adjusted to maintain the aspect ratio
+  - `-strip` reduces the file size
+  - `-auto-orient` helps to fix issues with rotation of images. Some iamges otherwise would not have proper orientation.
+- Using https://github.com/iscls/album/blob/gh-pages/gallery/imagePathGenerator.ipynb, generate the filenames and description and then add it in the respective gallery folder
+  - Currently there are three gallery folders, once each for each day
+  - Paste the gneerated text from the notebook to corresponding html file inside the galler folder, say https://github.com/iscls/album/blob/gh-pages/gallery/gallery01/index.html for day 1
 
 
 
