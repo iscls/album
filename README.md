@@ -1,3 +1,17 @@
+### Updating the Gallery
+
+- Images link: [https://1drv.ms/u/s!AoBtr7-i8KtSakarkwMcpOfpNJo?e=6IgtMN](https://1drv.ms/u/s!AoBtr7-i8KtSakarkwMcpOfpNJo?e=6IgtMN)
+- Resize the images to fit to web using imagemagick
+```convert -auto-orient '*.jpg[750x]' -strip IMG_%03d.jpg
+- Using https://github.com/iscls/album/blob/gh-pages/gallery/imagePathGenerator.ipynb, generate filenames and description
+
+
+
+
+
+
+
+
 p h o t o r a m a 
 ====================
 
