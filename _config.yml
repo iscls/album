@@ -3,7 +3,7 @@ title: ISCLS 2019
 email: "iscls@outlook.com"
 description: "OCT 23 - 25, IIT Kharagpur"
 url: "https://iscls.github.io"
-baseurl: "/album"
+baseurl: "/album2019"
 #facebook_username: ""
 #twitter_username: ""
 #instagram_username: ""
@@ -33,8 +33,8 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://iscls.github.io/album/gallery/"  
-  - CONFERENCE HOME: "https://iscls.github.io/"
+  - GALLERY: "https://iscls.github.io/album2019/gallery/"
+  - CONFERENCE HOME: "https://iscls.github.io/iscls2019/"
  # - ABOUT: "https://iscls.github.io/album/about/"
 
 # All translation keys
@@ -56,7 +56,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
